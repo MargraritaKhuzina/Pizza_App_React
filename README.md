@@ -1,17 +1,17 @@
 Используемые технологии:
 
-•	ReactJS 
-•	TypeScript
-•	Redux Toolkit (хранение данных)
-•	React Router v6 (навигация)
-•	Axios + Fetch (отправка запроса на бэкенд)
-•	React Hooks 
-•	Prettier 
-•	CSS-Modules / SCSS (стилизация)
-•	React Content Loader 
-•	React Pagination 
-•	Lodash.Debounce
-•	Code Splitting, React Loadable
+1	ReactJS 
+2	TypeScript
+3	Redux Toolkit (хранение данных)
+4	React Router v6 (навигация)
+5	Axios + Fetch (отправка запроса на бэкенд)
+6	React Hooks 
+7	Prettier 
+8	CSS-Modules / SCSS (стилизация)
+9	React Content Loader 
+10	React Pagination 
+11	Lodash.Debounce
+12	Code Splitting, React Loadable
 
 Реализованный функционал
 1. Главная страница магазина

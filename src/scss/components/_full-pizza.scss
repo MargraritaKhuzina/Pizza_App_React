@@ -1,0 +1,62 @@
+@import '../variables';
+
+.full-pizza {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 40px;
+
+  @media (max-width: 960px) {
+    flex-direction: column;
+  }
+}
+
+.full-pizza__picture {
+  display: flex;
+  width: 40%;
+  @media (max-width: 1140px) {
+    width: 50%;
+  }
+  @media (max-width: 960px) {
+    width: 100%;
+    align-items: center;
+  }
+}
+.full-pizza__image {
+  display: block;
+  max-width: 100%;
+  height: 400px;
+  width: 400px;
+  @media (max-width: 960px) {
+    width: 350px;
+    height: auto;
+  }
+}
+
+.full-pizza__description {
+  width: 60%;
+  @media (max-width: 1140px) {
+    width: 40%;
+  }
+
+  @media (max-width: 960px) {
+    width: 100%;
+  }
+}
+.full-pizza__title {
+  font-size: 32px;
+
+  margin-bottom: 15px;
+}
+.full-pizza__text {
+  font-size: 24px;
+  line-height: 1.1;
+
+  margin-bottom: 15px;
+}
+
+.full-pizza__price {
+  font-size: 24px;
+
+  margin-bottom: 15px;
+}
